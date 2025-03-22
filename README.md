@@ -1,6 +1,20 @@
 # Diffusion SDXL DreamBooth LoRA Finetuning
 
 This project provides a Google Colab-compatible pipeline for fine-tuning [Stability AI's SDXL](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) using **DreamBooth** and **LoRA (Low-Rank Adaptation)** techniques on a few custom images (5-20 images). It leverages memory-friendly training, enabling personalized model generation based on user-provided images.
+## Results
+### Training Data
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9f730da2-b05e-4b1d-9ca2-ddeb157aeb65" width="400"/>
+</p>
+
+### Inference, Generated Output
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fbcd9613-a413-4eb8-b11f-a4cd92be175f" width="400"/>
+</p>
+
+<p align="center">
+  <strong>Prompt</strong>: "photo of &lt;TOKEN&gt; girl in venice with a cat"
+</p>
 
 ## 🚀 Features
 
